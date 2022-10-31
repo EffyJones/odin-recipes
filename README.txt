@@ -1,0 +1,1 @@
+The first project of The Odin Project using basic skills learned from the first half of the foundations course.
