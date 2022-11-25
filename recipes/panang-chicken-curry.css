@@ -1,0 +1,48 @@
+body {
+    background-color: burlywood;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+h1 {
+    background: burlywood;
+    border: 15px double antiquewhite;
+    border-radius: 10px;
+    color: brown;
+    text-align: center;
+    font-size: 40px;
+    max-width: 1000px;
+    padding: 15px;
+}
+h2 {
+    color: brown;
+    font-size: 25px;
+    border: 15px double antiquewhite;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 1000px;
+}
+h3 {
+    color: brown;
+    text-align:left;
+    font-size: larger;
+    align-self: center;
+   /*this part is not done*/
+    
+}
+img {
+    border: 10PX double antiquewhite;
+    border-radius: 70%;
+}
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
