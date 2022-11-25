@@ -1,0 +1,49 @@
+div{
+    max-width: 800px;
+    margin: auto;
+    border: 15px double antiquewhite;
+    padding: 4px 30px 4px 30px;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+p.outlines {
+    background-color: burlywood;
+    padding: 10px;
+    border: 15px double antiquewhite;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    width: 50%;
+    margin: 15px auto;
+    max-width: 800px;
+}
+body{
+    background-color: rgba(154, 120, 34, 0.308);
+}
+img {
+    border-radius: 70%;
+    border-style: double;
+    border-color: antiquewhite;
+    border-width: 10px;
+    @media screen {
+       max-width: 800px;
+       float:none;
+       display: block;
+       overflow: hidden;
+    }
+}
+#words {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    color: brown ;
+}
