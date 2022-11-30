@@ -7,15 +7,6 @@ body {
     margin-right: auto;
     padding:20px;
 }
-#border {
-    border: 15px double antiquewhite;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 15px; 
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 h1 {
     background: burlywood;
     border: 15px double antiquewhite;
@@ -24,45 +15,27 @@ h1 {
     text-align: center;
     font-size: 40px;
     max-width: 1000px;
-    padding: 15px;
+    padding: 5px;
 }
-
 img {
     border: 10PX double antiquewhite;
     border-radius: 70%;
 }
-.flex-container {
-    display: flex;
-    align-items:center;
-    justify-content:space-evenly;
-    columns:auto;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 div {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-
-#font {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 15px;
-    text-align: left;
-    font-size:large;
+h3 {
+    columns: 1;
+    padding: 10px;
+    max-width: 1000px;
 }
-#font2 {
-    font-size:larger;
-    color: brown;
+div.frame {
+    border: 15px double antiquewhite;
+    justify-content: ;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
 }
-.box{
-    display: flexbox;
-    align-items: flex-start;
-    border: 1px solid;
-    text-align: center;
-    padding:10px;
-    justify-content: center;
-}
-
